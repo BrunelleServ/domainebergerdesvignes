@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>    Domaine Berger des vignes
+    </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Accueil</a></li>
+            <li><a href="assets/pages/gite.html">Le gîte</a></li>
+    
+            <li><a href="#">Nous Contacter</a></li>
+          </ul>
+     
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        <div class="well">
+          <p>News</p>
+        </div>
+        <div class="well">
+          <p>News</p>
+        </div>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Présentation</h1>
+      <p class="text"></p>
+      <hr>
+      <h3>L'équipe</h3>
+      <p></p>
+    </div>
+    <div class="col-sm-2 sidenav elements ">
+        <button type="button" class="btn btn-primary  presentation" >Présentation</button>
+        <br>
+        <button type="button" class="btn btn-primary photos">Photos</button>
+        <br>
+        <button type="button" class="btn btn-primary region">Notre région</button>
+       
+      </div>
+   
+  </div>
+</div>
+<footer class="container-fluid text-center">
+    <p>Domaine Berger des vignes</p>
+  </footer>
+  
+
+</body>
+</html>
+
+<script>
+   $(function () {
+    $('.text').text("text Présentation")
+    $('.presentation').addClass("active");
+  $('.presentation').click( function() {
+    $('.btn').removeClass("active");
+    $('.presentation').addClass("active");
+ $('.text').empty();
+    $('.text').text("text Présentation")
+
+  });
+  $('.photos').click( function() {
+    $('.btn').removeClass("active");
+    $('.photos').addClass("active");
+ $('.text').empty();
+    $('.text').text("text photos")
+
+  });
+  $('.region').click( function() {
+    $('.btn').removeClass("active");
+    $('.region').addClass("active");
+ $('.text').empty();
+    $('.text').text("text region")
+
+  });
+
+
+   });
+
+</script>
