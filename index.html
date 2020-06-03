@@ -1,92 +1,169 @@
-<!--
-
--->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>    Domaine Berger des vignes
-    </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="./js/contact.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+<!--
+projet Web dev : Domaine Berger des vignes 
+date début : 02/06/2020
+Berger Alexia, Martinez Castelbon Manon, Marquant Jenny,  Servat Brunelle 
+-->
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <title>Domaine Berger des Vignes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
 
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Accueil</a></li>
-            <li><a href="assets/pages/gite.html">Le gîte</a></li>
-            <li><a href="assets/pages/Le-domaine-Viticole.html">Le domaine Viticole</a></li>
-            <li><a href="assets/pages/contact.html">Nous Contacter</a></li>
-            <li><a href="assets/pages/mentionlegales.html">Mention Légales</a></li>
-          </ul>
-     
-    </div>
-  </div>
-</nav>
-  
-<div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-        <div class="well">
-          <p>News</p>
+    <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html" > 
+               
+              </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto" >
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Accueil</a></li>
+	          <li class="nav-item"><a href="Le Gîte.html" class="nav-link">Le Gîte</a></li>
+	          <li class="nav-item"><a href="Le Domaine Viticole.html" class="nav-link">Le domaine viticole</a></li>
+	          <li class="nav-item"><a href="Notre région.html" class="nav-link">Notre région</a></li>
+	          <li class="nav-item"><a href="Photos.html" class="nav-link">Album photo</a></li>
+	          <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="home-slider owl-carousel">
+      <div class="slider-item" style="background-image: url(assets/images/photossite/DSCN3766.JPG);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-12 ftco-animate text-center">
+          	<div class="text mb-5 pb-3">
+	            <h1 class="mb-3">Bienvenue au Domaine Berger des Vignes</h1>
+	            <h2>Gîte d'étapes et de séjours</h2>
+            </div>
+          </div>
         </div>
-        <div class="well">
-          <p>News</p>
         </div>
-        <div class="well">
-          <p>News</p>
-        </div>
-    </div>
-    <div class="col-sm-8 text-left"> 
-      <h1>Présentation</h1>
-      <p class="text"></p>
-      <hr>
-      <h3>bite</h3>
-      
-      <p class='textmentions text3'></p>
-      
-    </div>
-    <div class="col-sm-2 sidenav elements ">
-        <button type="button" class="btn btn-primary formulaire">Formulaire de Contact</button>
-        <br>
-        <button type="button" class="btn btn-primary  plan" >Voir le plan d'accès</button>
-        <br>
-        <button type="button" class="btn btn-primary mentions">Mentions légales</button>
-        <br>
-       
       </div>
+
+      <div class="slider-item" style="background-image: url(assets/images/photossite/DSCN2816.JPG);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-12 ftco-animate text-center">
+          	<div class="text mb-5 pb-3">
+	            <h1 class="mb-3">Domaine viticole au coeur du Beaujolais</h1>
+	            <h2>Venez déguster notre vin</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section>
+
    
-  </div>
-</div>
-<footer class="container-fluid text-center">
-    <p>Domaine Berger des vignes</p>
-  </footer>
+
+
+    <section class="ftco-section ftc-no-pb ftc-no-pt">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(assets/images/accueil/vignes.jpg);">	
+					</div>
+					<div class="col-md-7 py-5 wrap-out pb-md-5 ftco-animate">
+	          <div class="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
+	          	<div class="ml-md-0">
+		          	<span class="subheading">Bienvenue au Domaine Berger  des Vignes</span>
+		            <h2 class="mb-4">Bienvenue dans notre gîte d'étape et de séjours</h2>
+	            </div>
+	          </div>
+	          <div class="pb-md-5">
+							<p>Notre gîte est situé au coeur du vignoble Beaujolais, à 30 km de Lyon et 5 km de Villefranche sur Saône, sur une exploitation viticole.
+
+Au sommet d'une colline avec un point de vue magnifique, le dépaysement et le calme sont assurés. Nous vous accueillons dans notre gîte pour une étape en semaine (de 4 à 28 personnes) : une halte lors de vos déplacements professionnels, en famille pour un départ ou retour de vacances pour un séjour en semaine ou en week-end : rassemblement de famille ou amis, baptême, communion, mariage, anniversaire, pour un séjour ou une étape :  classe verte, déplacements sportifs (gîte agréé Jeunesse et Sport) pour l'organisation de vos séminaires.</p>
+							<p>Au rez de chaussée, vous trouverez : deux chambres pour 4 personnes, deux WC, une salle à manger, une cuisine équipée, un lave linge, un congélateur.
+A l'étage, vous trouverez : deux chambres pour 4 personnes, deux dortoirs pour 6 personnes, 3 salles de bains, 2 WC.
+A l'extérieur vous trouverez, une grande terrasse avec barbecue à disposition.</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Vous avez une question ?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">1107 route de la crête de chalier, 69480, Pommiers</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">04.74.65.07.09/06.09.70.47.75</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">bergerco@wanadoo.fr</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    
   
 
-</body>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/jquery.animateNumber.min.js"></script>
+  <script src="assets/js/bootstrap-datepicker.js"></script>
+  <script src="assets/js/jquery.timepicker.min.js"></script>
+  <script src="assets/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="assets/js/google-map.js"></script>
+  <script src="assets/js/main.js"></script>
+    
+  </body>
 </html>
 
-<script>
-
-
-    
-    
-
-</script>
+<html></html>
