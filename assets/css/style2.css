@@ -28,7 +28,10 @@
   
   
 }
-em {
+.st{
+    font-size: 25px;
+}
+em { 
   text-emphasis-style: sesame;
   text-emphasis-color: blue;
   text-shadow: #FC0 1px 0 10px;
@@ -39,33 +42,32 @@ em {
   color: black;
   font-size: 60px;
 }
-.exemple2 {
+/*permet de mettre la couleur noire, l'ombre et de souligner de couleur noire*/
+.exemple2 { 
   text-decoration: underline;
   text-decoration-color: black;
   color: black;
   font-size: 45px;
   text-shadow: 15px 15px 10px;
 }
-q::after{  
-  content: "*";
-}
 
-.text { /*notre gîte est... */
+.text { /*notre gîte est... met la taille*/
     font-size: 25px;
 }
-.text2 { /*rez de chaussee */
+.text2 { /*rez de chaussee taille et couleur */
     font-size: 20px;
     color: #a30f36;
    
 }
-.text1{ /*l'espace de vie */
+.text1{ /*l'espace de vie met en couleur, taille et souligné de la même couleur*/
     font-size: 35px;
     text-decoration: underline;
     text-decoration-color: #a30f36;
     color: #a30f36;
     
 }
-.text3{ /*CUISINE ET FORMULE REPAS */
+.text3{ /*CUISINE ET FORMULE REPAS met la taille
+    */
     font-size: 18px;
     
 }
