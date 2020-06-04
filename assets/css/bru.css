@@ -38,7 +38,7 @@ and open the template in the editor.
 }
 
 
-.row.content {height: 690}
+.row.content {height: 690px}
 
 #rowContent{
   display: flex;
