@@ -1,46 +1,5 @@
 
-    
 
-
-.elements > button{
-  background-color: #a30f36;
-  border-color: #a30f36;
-  margin-top: 5%;
-
-}
-.elements > button:hover, .elements > button.active, .elements > button:focus {
-  background-color: #ffff !important;
-  border-color: #ffff !important;
-  color: #000 !important;
-  
-  
-}
-
-
-.row.content {height: 698px}
-
-
-.sidenav {
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
-}
-
-
-footer {
-  background-color: #555;
-  color: white;
-  padding: 15px;
-}
-
-
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {height:auto;} 
-}
 /*!
  projet Web dev : Domaine Berger des vignes 
 date début : 02/06/2020

@@ -4,7 +4,49 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 3 juin 2020, 16:14:26
+    Created on : 4 juin 2020, 13:44:25
     Author     : brune
 */
 
+.center-div { 
+
+    text-align: center
+
+}
+
+
+
+
+.marge{
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    padding-bottom: 20px;
+
+    padding-top: 20px;
+
+    align-content: center;
+   
+
+}
+
+
+
+
+.btn-primary {
+
+    color: #fff;
+    margin-top: 20px !important;
+    background-color: #a30f36 !important;
+    border-color: #a30f36 !important;
+
+}
+
+.margMap {
+     display: flex;
+     direction: row;
+     flex: auto;
+     justify-content: center;
+}
