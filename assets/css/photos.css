@@ -1,7 +1,7 @@
 body {
     padding: 20px ;
     font-family: sans-serif ;
-    background: #725555 !important;
+    background: url('../images/photossite/DSCN2816.JPG');
     margin-top: 200px;
   }
   img {
@@ -10,7 +10,7 @@ body {
   }
   h2 {
     margin-bottom: .5em ;
-    margin-top: 100px;
+    text-align: center;
   }
   .grid-container {
     display: grid ;
@@ -75,12 +75,14 @@ body {
     }
   }
 
-  .child-page-listing {
-    margin-top: 200px !important ;
+  .h10 {
+    margin-bottom: 5px ;
+    text-align: center;
+  } 
+  
+  #testingo {
+      text-align: center;
   }
   
   
   
-  
-  
-  Resources
