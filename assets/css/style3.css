@@ -1,0 +1,163 @@
+
+    
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #a30f36;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+  color: #a30f36;
+  background-color: #ffff;
+}
+.navbar-collapse, .navbar-inverse{
+  background-color: #a30f36;
+  border-color: #a30f36;
+  color : #ffff;
+}
+
+.elements > button{
+  background-color: #a30f36;
+  border-color: pink;
+  margin-top: 20%;
+
+}
+.elements > button:hover, .elements > button.active, .elements > button:focus {
+  background-color: #ffff !important;
+  border-color: #ffff !important;
+  color: #000 !important;
+  
+  
+}
+em {
+  text-emphasis-style: sesame;
+  text-emphasis-color: blue;
+  text-shadow: #FC0 1px 0 10px;
+}
+.exemple {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+  font-size: 60px;
+}
+.exemple2 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+  font-size: 45px;
+}
+q::after{  
+  content: "*";
+}
+.text { /*notre gîte est... */
+    font-size: 25px;
+}
+.text2 { /*rez de chaussee */
+    font-size: 20px;
+    color: #a30f36;
+}
+.text1{ /*l'espace de vie */
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: #a30f36;
+    color: #a30f36;
+}
+.text3{ /*CUISINE ET FORMULE REPAS */
+    font-size: 18px;
+    
+}
+.text4{ /* la cuisine: */
+    font-size: 28px;
+    color: darkred; 
+}
+.text10{ /*les formules repas : */
+    font-size: 20px;
+    color: #a30f36; 
+}
+.text14{ /* l'espace de couchage */
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.text19{ /* L'ETAGE */
+    font-size: 40px;
+    color: #a30f36;
+}
+
+
+#theme{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#theme2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#theme div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+#theme2 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+}
+.presentoire{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    box-shadow: 3px 4px 5px #cdcbcf;
+    -moz-box-shadow: 3px 4px 5px #cdcbcf;
+    -webkit-box-shadow: 3px 4px 5px #cdcbcf;
+    overflow: hidden;
+}
+.presentoire:hover{
+    border: black thin solid;
+    border-radius: 2%;
+}
+* {
+    font-family: '';
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face{
+    font-family:'';
+    src:url('') format("truetype");
+}
+
+.row.content {height: 450px}
+
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
