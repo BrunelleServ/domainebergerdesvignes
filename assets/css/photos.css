@@ -1,7 +1,8 @@
 body {
     padding: 20px ;
     font-family: sans-serif ;
-    background: #f2f2f2 ;
+    background: #725555 !important;
+    margin-top: 200px;
   }
   img {
     width: 100% ; /* need to overwrite inline dimensions */
@@ -9,6 +10,7 @@ body {
   }
   h2 {
     margin-bottom: .5em ;
+    margin-top: 100px;
   }
   .grid-container {
     display: grid ;
@@ -74,7 +76,7 @@ body {
   }
 
   .child-page-listing {
-    margin: 2px 1em 0 auto !important ;
+    margin-top: 200px !important ;
   }
   
   
