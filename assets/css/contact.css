@@ -3,50 +3,51 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+
+
 /* 
     Created on : 4 juin 2020, 13:44:25
     Author     : brune
 */
 
-.center-div { 
-
+.center-div {
     text-align: center
-
 }
 
-
-
-
-.marge{
-
+.marge {
     padding-left: 20px;
-
     padding-right: 20px;
-
     padding-bottom: 20px;
-
     padding-top: 20px;
-
     align-content: center;
-   
-
 }
-
-
-
 
 .btn-primary {
-
     color: #fff;
     margin-top: 20px !important;
     background-color: #a30f36 !important;
     border-color: #a30f36 !important;
-
 }
 
 .margMap {
-     display: flex;
-     direction: row;
-     flex: auto;
-     justify-content: center;
+    display: flex;
+    direction: row;
+    flex: auto;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
 }

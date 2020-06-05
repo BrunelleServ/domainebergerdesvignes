@@ -3,74 +3,85 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
+
+
 /* 
     Created on : 3 juin 2020, 23:11:06
     Author     : mcast
 */
 
 .navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: #a30f36;
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
-  color: #a30f36;
-  background-color: #ffff;
-}
-.navbar-collapse, .navbar-inverse{
-  background-color: #a30f36;
-  border-color: #a30f36;
-  color : #ffff;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #a30f36;
 }
 
-.elements > button{
-  background-color: #a30f36;
-  border-color: #a30f36;
-  margin-top: 5%;
-
-}
-.elements > button:hover, .elements > button.active, .elements > button:focus {
-  background-color: #ffff !important;
-  border-color: #ffff !important;
-  color: #000 !important;
-  
-  
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #a30f36;
+    background-color: #ffff;
 }
 
-
-.row.content {height: 690px}
-
-#rowContent{
-  display: flex;
-  direction: row;
-  flex: auto;
-  justify-content: center;
-  align-items: stretch;
+.navbar-collapse,
+.navbar-inverse {
+    background-color: #a30f36;
+    border-color: #a30f36;
+    color: #ffff;
 }
-.sidenav{
-  padding-top: 20px;
-  background-color: #f1f1f1;
-  height: 100%;
+
+.elements>button {
+    background-color: #a30f36;
+    border-color: #a30f36;
+    margin-top: 5%;
+}
+
+.elements>button:hover,
+.elements>button.active,
+.elements>button:focus {
+    background-color: #ffff !important;
+    border-color: #ffff !important;
+    color: #000 !important;
+}
+
+.row.content {
+    height: 690px
+}
+
+#rowContent {
+    display: flex;
+    direction: row;
+    flex: auto;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+    padding-bottom: 30px;
 }
 
 footer {
-  background-color: #555;
-  color: white;
-  padding: 15px; 
+    background-color: #555;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    bottom: 0;
 }
-
-
-#footer {
-   position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 
 @media screen and (max-width: auto) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {height:auto;} 
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+.h4 {
+    font-style: italic !important;
+    margin-bottom: 40px !important;
 }
