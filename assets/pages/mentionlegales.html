@@ -130,23 +130,14 @@ Author: brune
                 <h1 class='titre h1-responsive font-weight-bold text-center my-4'></h1>
                 <h4 class="text text-center w-responsive mx-auto mb-5"></h4>
 
-                <p class="bigtext1 text-center"></p>
+                <p class="text2 text-center">Ce Site Web est la propriété du Domaine Berger des Vignes - 69480 Pommiers<br/>Forme Juridique : Earl Claude Berger<br/>Adresse du site : http://www.domainebergerdesvignes.com<br/>Directeur de la Publication : Claude Berger<br/>Conception
+                    - Réalisation : AJC.COM - Pouilly le Monial - 69400 Porte des Pierres Dorée<br/>Hébergement : OVH SAS - 59100 Roubaix<br/>Tout lien avec ce Site Web doit faire préalablement l'objet d'une demande expresse d'autorisation.<br/>Ce Site
+                    Web constitue une oeuvre protégée en France par le Code de Propriété Intellectuelle, et à l'étranger par les conventions internationales en vigueur sur le droit d'auteur. La violation de l'un des droits d'auteur de l'œuvre est un délit
+                    de contrefaçon passible, aux termes de l'article L.335-2 du Code de la Propriété Intellectuelle, de 2 ans d'emprisonnement et de 150 000 € d'amende.</p>
 
-                <p class="bigtext2 text-center"></p>
 
-                <p class="bigtext3 text-center"></p>
 
-                <p class="bigtext4 text-center"></p>
-
-                <p class="bigtext5 text-center"></p>
-
-                <p class="bigtext6 text-center"> </p>
-
-                <p class="bigtext7 text-center"></p>
-
-                <p class="bigtext8 text-center"></p>
-
-                <p class="bigtext9 text-center"></p>
+                <div class="formulaireC"></div>
 
                 <map>
               <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
@@ -191,24 +182,19 @@ Author: brune
         $('.titre').text("Formulaire de contact")
         $('.text').text("Envoyer un e-mail. Tous les champs marqués d\'un astérisque \* sont obligatoires.")
         $("map").empty();
+
         $('.formulaire').addClass("active");
         $('.formulaire').click(function() {
             $('.btn').removeClass("active");
             $('.formulaire').addClass("active");
             $('.titre').empty();
             $('.text').empty();
-            $('.bigtext1').empty();
-            $('.bigtext2').empty();
-            $('.bigtext3').empty();
-            $('.bigtext4').empty();
-            $('.bigtext5').empty();
-            $('.bigtext6').empty();
-            $('.bigtext7').empty();
-            $('.bigtext8').empty();
-            $('.bigtext9').empty();
+
+
             $("map").empty();
             $('.titre').text("Formulaire de contact")
             $('.text').text("Envoyer un e-mail. Tous les champs marqués d\'un astérisque \* sont obligatoires.")
+            var formulaireC = "";
 
 
 
@@ -221,15 +207,8 @@ Author: brune
             $('.titre').empty();
             $('.titre').text("Plan d'accès");
             $('.text').text("Comment nous retrouver?");
-            $('.bigtext1').empty();
-            $('.bigtext2').empty();
-            $('.bigtext3').empty();
-            $('.bigtext4').empty();
-            $('.bigtext5').empty();
-            $('.bigtext6').empty();
-            $('.bigtext7').empty();
-            $('.bigtext8').empty();
-            $('.bigtext9').empty();
+
+
             $("map").map();
 
 
@@ -241,18 +220,11 @@ Author: brune
             $('.mentions').addClass("active");
             $('.text').empty();
             $("map").empty();
+
             $('.titre').empty();
             $('.titre').text("Mentions Légales");
             $('.text').text("Comment nous retrouver?");
-            $('.bigtext1').text("Ce Site Web est la propriété du Domaine Berger des Vignes - 69480 Pommiers");
-            $('.bigtext2').text("Forme Juridique : Earl Claude Berger");
-            $('.bigtext3').text("Adresse du site : http://www.domainebergerdesvignes.com");
-            $('.bigtext4').text("Directeur de la Publication : Claude Berger");
-            $('.bigtext5').text("Conception - Réalisation : AJC.COM - Pouilly le Monial - 69400 Porte des Pierres Dorées");
-            $('.bigtext6').text("Hébergement : OVH SAS - 59100 Roubaix");
-            $('.bigtext7').text("Tout lien avec ce Site Web doit faire préalablement l'objet d'une demande expresse d'autorisation.");
-            $('.bigtext8').text("Ce Site Web constitue une oeuvre protégée en France par le Code de Propriété Intellectuelle, et à l'étranger par les conventions internationales en vigueur sur le droit d'auteur. La violation de l'un des droits d'auteur de l'œuvre est un délit de contrefaçon passible, aux termes de l'article L.335-2 du Code de la Propriété Intellectuelle, de 2 ans d'emprisonnement et de 150 000 € d'amende.");
-            $('.bigtext').text("© Domaine Berger des Vignes - Tous droits réservés, reproduction (partielle ou intégrale) interdite sans autorisation.?");
+            $('.text2').text();
 
 
 
