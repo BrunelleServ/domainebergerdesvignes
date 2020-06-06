@@ -47,8 +47,16 @@ h1 {
     color: white; /* Couleur du texte */
     justify-content: space-between;
     text-align: center;
-    
+    width: 100%;    
 }
 #gauche, #milieu, #droite{
     justify-content: space-between;
 }
+
+/*img{
+    width: 100%;}
+    @media (max-width: 1199.98px){
+        img{
+        width: "100%" !important;}
+    }
+*/

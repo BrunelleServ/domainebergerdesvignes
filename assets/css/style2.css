@@ -97,6 +97,7 @@ em {
     -moz-box-shadow: 3px 4px 5px #cdcbcf;
     -webkit-box-shadow: 3px 4px 5px #cdcbcf;
     overflow: hidden;
+    background: #e4e3e6;
 }
 .presentoire:hover{
     border: black thin solid;
@@ -108,6 +109,14 @@ em {
     margin: 0; 
     padding: 0;
     text-decoration: none;
+}
+
+body{
+    color:black;   
+    margin:0;
+    background-size: contain;
+    background-image:url('../images/accueil/legite01.jpg');
+    
 }
 
 @font-face{
