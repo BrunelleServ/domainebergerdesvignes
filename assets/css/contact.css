@@ -10,16 +10,16 @@ and open the template in the editor.
     Author     : brune
 */
 
-.center-div {
-    text-align: center
+footer {
+    background-color: #555;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    bottom: 0;
 }
 
 .marge {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    align-content: center;
+    justify-content: center !important;
 }
 
 .btn-primary {
@@ -27,6 +27,11 @@ and open the template in the editor.
     margin-top: 20px !important;
     background-color: #a30f36 !important;
     border-color: #a30f36 !important;
+    justify-content: center !important;
+}
+
+.btn {
+    justify-content: center !important;
 }
 
 .margMap {
@@ -34,6 +39,7 @@ and open the template in the editor.
     direction: row;
     flex: auto;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .map-container {
@@ -57,8 +63,9 @@ and open the template in the editor.
 .formulaire,
 .plan,
 .mentions {
-    margin-top: 40% !important;
-    padding: 35px !important;
+    margin-top: 45% !important;
+    padding: 40px !important;
+    width: 100%;
 }
 
 .text2 {
@@ -66,6 +73,28 @@ and open the template in the editor.
     font-size: 14px !important;
 }
 
+.titre {
+    margin-bottom: 40px;
+}
+
 .well {
-    margin-top: 40% !important;
+    margin-top: 20% !important;
+    padding: 35px !important;
+}
+
+.ftco-section {
+    padding: 6em 0;
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-section {
+        padding: 6em 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .ftco-section .container-fluid {
+        padding: 0 4em;
+    }
 }
