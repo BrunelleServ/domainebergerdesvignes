@@ -2,3 +2,12 @@
     height: 300px;
     overflow:scroll;
 }
+
+#bordure::-webkit-scrollbar{
+    display: none;
+}
+
+#bouton{
+  
+}
+
