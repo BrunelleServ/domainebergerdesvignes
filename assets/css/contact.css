@@ -88,13 +88,21 @@ footer {
 }
 
 @media (max-width: 767.98px) {
-    .ftco-section {
+    .ftco-section .inf {
+        word-wrap: break-word;
         padding: 6em 0;
     }
 }
 
 @media (min-width: 768px) {
-    .ftco-section .container-fluid {
+    .ftco-section .container-fluid .inf {
+        word-wrap: break-word;
         padding: 0 4em;
+    }
+}
+
+@media (max-width: 992px) {
+    .ftco-section .inf {
+        padding: 6em 0;
     }
 }
