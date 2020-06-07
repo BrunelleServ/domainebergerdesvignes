@@ -108,11 +108,7 @@ em {
 .inf{
     font-size: 15px;
 }
-@media screen and (min-width: 1000px) {
-  .inf{
-    font-size: 0.6em !important;
-  }
-}
+
 
 
 
@@ -130,11 +126,7 @@ body{
 #cote{
     color: black;
 }
-@media screen and (min-width: 1000px) {
-  #cote{
-    font-size:0.6em !important;
-  }
-}
+
 
 .nomuser{
     font-size: 20px;
