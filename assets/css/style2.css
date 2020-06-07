@@ -10,15 +10,15 @@ em {
 }
 .exemple {
   text-decoration: underline;
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: #8d703b;
+  color: white;
   font-size: 60px;
 }
 /*permet de mettre la couleur noire, l'ombre et de souligner de couleur noire*/
 .exemple2 { 
   text-decoration: underline;
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: #8d703b;
+  color: white;
   font-size: 45px;
   text-shadow: 15px 15px 10px;
 }
@@ -27,15 +27,15 @@ em {
     font-size: 25px;
 }
 .text2 { /*rez de chaussee taille et couleur */
-    font-size: 20px;
+    font-size: 25px;
     color: #a30f36;
    
 }
 .text1{ /*l'espace de vie met en couleur, taille et souligné de la même couleur*/
     font-size: 35px;
     text-decoration: underline;
-    text-decoration-color: #a30f36;
-    color: #a30f36;
+
+ 
     
 }
 .text3{ /*CUISINE ET FORMULE REPAS met la taille
@@ -45,7 +45,6 @@ em {
 }
 .text4{ /* la cuisine: */
     font-size: 28px;
-    color: darkred; 
 }
 .text10{ /*les formules repas : */
     font-size: 20px;
@@ -111,21 +110,15 @@ em {
 }
 
 body{
-    color:black;   
+    color:white;   
     margin:0;
     background-size: contain;
-    background-image:url('../images/accueil/legite01.jpg');
-    font-family: "poppins" arial sans-serif !important;
-    
+    width: 100%;
+    padding:0;
+    background: url(../images/accueil/legite01.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */    
 }
-
-#texte1{
-    color: white;
+#cote{
+    color: black;
 }
-#titre{
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-
-
