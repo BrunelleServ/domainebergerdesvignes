@@ -71,13 +71,13 @@ footer {
     bottom: 0;
 }
 
-@media screen and (max-width: auto) {
+@media screen and (max-width: 480) {
     .sidenav {
-        height: auto;
-        padding: 15px;
+        height: 480;
+        padding: 0px;
     }
     .row.content {
-        height: auto;
+        height: 700;
     }
 }
 
