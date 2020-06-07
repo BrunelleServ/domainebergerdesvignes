@@ -1,33 +1,4 @@
 
-    
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  background-color: #a30f36;
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
-  color: #a30f36;
-  background-color: #ffff;
-}
-.navbar-collapse, .navbar-inverse{
-  background-color: #a30f36;
-  border-color: #a30f36;
-  color : #ffff;
-}
-
-.elements > button{
-  background-color: #a30f36;
-  border-color: pink;
-  margin-top: 20%;
-
-}
-.elements > button:hover, .elements > button.active, .elements > button:focus {
-  background-color: #ffff !important;
-  border-color: #ffff !important;
-  color: #000 !important;
-  
-  
-}
 .st{
     font-size: 25px;
 }
@@ -38,15 +9,15 @@ em {
 }
 .exemple {
   text-decoration: underline;
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: #8d703b;
+  color: white;
   font-size: 60px;
 }
 /*permet de mettre la couleur noire, l'ombre et de souligner de couleur noire*/
 .exemple2 { 
   text-decoration: underline;
-  text-decoration-color: black;
-  color: black;
+  text-decoration-color: #8d703b;
+  color: white;
   font-size: 45px;
   text-shadow: 15px 15px 10px;
 }
@@ -55,15 +26,15 @@ em {
     font-size: 25px;
 }
 .text2 { /*rez de chaussee taille et couleur */
-    font-size: 20px;
+    font-size: 25px;
     color: #a30f36;
    
 }
 .text1{ /*l'espace de vie met en couleur, taille et souligné de la même couleur*/
     font-size: 35px;
     text-decoration: underline;
-    text-decoration-color: #a30f36;
-    color: #a30f36;
+
+ 
     
 }
 .text3{ /*CUISINE ET FORMULE REPAS met la taille
@@ -73,7 +44,6 @@ em {
 }
 .text4{ /* la cuisine: */
     font-size: 28px;
-    color: darkred; 
 }
 .text10{ /*les formules repas : */
     font-size: 20px;
@@ -118,15 +88,18 @@ em {
     -moz-box-shadow: 3px 4px 5px #cdcbcf;
     -webkit-box-shadow: 3px 4px 5px #cdcbcf;
     overflow: hidden;
+
+    background: #e4e3e6;
+
     bottom: 20%;
    
+
 }
 .presentoire:hover{
     border: black thin solid;
     border-radius: 2%;
 }
 * {
-    font-family: '';
     box-sizing: border-box;
     margin: 0; 
     padding: 0;
@@ -134,6 +107,21 @@ em {
 }
 .inf{
     font-size: 15px;
+}
+
+
+body{
+    color:white;   
+    margin:0;
+    background-size: contain;
+    width: 100%;
+    padding:0;
+    background: url(../images/accueil/legite01.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */    
+}
+#cote{
+    color: black;
 }
 
 .nomuser{
@@ -205,3 +193,4 @@ footer {
   }
   .row.content {height:auto;} 
 }
+

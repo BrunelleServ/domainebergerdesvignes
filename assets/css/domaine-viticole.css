@@ -15,3 +15,48 @@ and open the template in the editor.
     background-image:url('../images/photossite/DSCN2816.JPG');
     
 }
+h1 {
+    color: black; /* Couleur du texte */
+    text-align: center; /* Le texte est centré */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+
+#thematique {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: nowrap; /* Les éléments sont placés sur une seule ligne */
+    align-content: center;
+    margin-top: 450px;
+}
+
+
+
+#thematique article {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex: 1; /* flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal (le + et le - à la fois) */
+    height: 500px; /* Hauteur */
+    border: transparent thin solid; /* Bordure transparente */
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: row;
+    
+}
+#thematique a {
+    display: flex; /* Ce conteneur est "flexible" */
+    font-size: xxx-large; /* Le texte est grossi en XXL */
+    color: white; /* Couleur du texte */
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;    
+}
+#gauche, #milieu, #droite{
+    justify-content: space-between;
+}
+
+/*img{
+    width: 100%;}
+    @media (max-width: 1199.98px){
+        img{
+        width: "100%" !important;}
+    }
+*/
