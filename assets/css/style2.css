@@ -108,6 +108,13 @@ em {
 .inf{
     font-size: 15px;
 }
+@media screen and (min-width: 1000px) {
+  .inf{
+    font-size: 0.6em !important;
+  }
+}
+
+
 
 
 body{
@@ -122,6 +129,11 @@ body{
 }
 #cote{
     color: black;
+}
+@media screen and (min-width: 1000px) {
+  #cote{
+    font-size:0.6em !important;
+  }
 }
 
 .nomuser{
@@ -193,4 +205,3 @@ footer {
   }
   .row.content {height:auto;} 
 }
-
