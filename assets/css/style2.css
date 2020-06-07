@@ -104,7 +104,6 @@ em {
     border-radius: 2%;
 }
 * {
-    font-family: '';
     box-sizing: border-box;
     margin: 0; 
     padding: 0;
@@ -116,11 +115,17 @@ body{
     margin:0;
     background-size: contain;
     background-image:url('../images/accueil/legite01.jpg');
+    font-family: "poppins" arial sans-serif !important;
     
 }
 
-@font-face{
-    font-family:'';
-    src:url('') format("truetype");
+#texte1{
+    color: white;
 }
+#titre{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 
