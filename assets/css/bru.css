@@ -10,13 +10,11 @@ and open the template in the editor.
     Author     : mcast
 */
 
-
 footer {
     background-color: #555;
     color: white;
     padding: 30px;
     text-align: center;
-    
     bottom: 0;
 }
 
@@ -27,6 +25,9 @@ footer {
     }
     .row.content {
         height: 700;
+    }
+    .rapetissementt {
+        font-size: 8px;
     }
 }
 
