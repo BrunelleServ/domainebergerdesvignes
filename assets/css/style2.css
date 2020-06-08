@@ -108,6 +108,33 @@ em {
 .inf{
     font-size: 15px;
 }
+@media screen and (max-width: 1000px){
+  .inf{
+    font-size: 0.8em !important;
+  }
+  .avis{
+    font-size: 0.8em !important;
+  }
+  .nomuser{
+    font-size: 0.8em !important;
+  }
+  #mail{
+    font-size: 0.65em !important;
+  }
+  #image1{
+    width: 80%;
+  }
+  #image2{
+    width: 45%;
+  }
+  #image3{
+    width: 50%;
+  }
+}
+
+#cond{
+  font-size: 1.6em;
+}
 
 
 
@@ -123,6 +150,7 @@ body{
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */    
 }
+
 #cote{
     color: black;
 }
