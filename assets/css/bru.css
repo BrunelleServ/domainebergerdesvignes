@@ -35,3 +35,21 @@ footer {
     font-style: italic !important;
     margin-bottom: 40px !important;
 }
+@media screen and (max-width: 1000px){
+    .inf{
+      font-size: 0.8em !important;
+    }
+    .avis{
+      font-size: 0.8em !important;
+    }
+    .nomuser{
+      font-size: 0.8em !important;
+    }
+    #mail{
+      font-size: 0.5em !important;
+    }
+    #bouton{
+        font-size: 0.5em !important;
+        
+    }
+  }
